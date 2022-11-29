@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "name": "typescript-sg-sort",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnydutra/typescript-sg-sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnydutra/typescript-sg-sort/issues"
+  },
+  "homepage": "https://github.com/johnnydutra/typescript-sg-sort#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
